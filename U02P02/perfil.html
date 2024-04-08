@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+</head>
+<body>
+    <h1>Perfil y datos personales.</h1>
+    <form action="">
+        <label for="soloLectura">Solo lectura </label>
+        <input type="soloLectura" name="soloLectura" id="soloLectura" value="solo lectura" readonly>  <br><br>
+
+        <label for="nombreCompleto">Nombre y apellido: </label>
+        <input type="text" name="nombreCompleto" id="nombreCompleto">  <br><br>
+
+        <label for="email">Email </label>
+        <input type="email" name="email" id="email">  <br><br>
+
+        
+        <label for="edad">Edad: </label>
+        <input type="date" name="edad" id="edad">  <br><br>
+
+        <label for="select">Nacionalidad: </label>
+        <select name="select">
+            <option value="value1" selected>Argentina</option>
+            <option value="value2" >Chile</option>
+            <option value="value3">Brasil</option>
+          </select> <br><br>
+
+          <label for="select2">Condicion laboral: </label>
+        <select name="select2">
+            <option value="value1">en búsqueda laboral</option>
+            <option value="value2" >trabajo part time</option>
+            <option value="value3">trabajo full time</option>
+            <option value="value4">desempleado</option>
+          </select> <br><br>
+
+          <form action="">
+            <h3>Gustos personales</h3>
+            <label for="gustosMusicales">Gustos musicales: </label>
+            <select name="gustosMusicales">
+                <option value="value1" selected>Rock</option>
+                <option value="value2" >Pop</option>
+                <option value="value3">Jazz</option>
+              </select> <br><br>
+
+              <label for="comidaPreferida">Comida preferida: </label>
+              <select name="comidaPreferida">
+                  <option value="value1" selected>Pastas</option>
+                  <option value="value2" >Carne roja</option>
+                  <option value="value3">Pescado</option>
+                </select> <br><br>
+
+                <input type="submit" value="Log In"> 
+                <label for="recordarDatos">Recordar datos: </label>
+        <input type="checkbox" name="recordarDatos" id="recordarDatos">
+          </form>
+    </form>
+
+    
+</body>
+</html>
